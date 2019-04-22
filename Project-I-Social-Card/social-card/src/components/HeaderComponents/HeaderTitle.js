@@ -2,15 +2,14 @@ import React from 'react';
 import './Header.css';
 import moment from 'moment';
 
-const currentDate = moment().format("DD MMM");
+const currentDate = moment().format('DD MMM, h:mm:ss a');
 
 
 function HeaderTitle() {
     return (
         <div className="header-title">
             <h4>Lambda School</h4>
-            <p>@LambdaSchool {(currentDate)}</p>            
-            
+            <p>@LambdaSchool {(currentDate)}</p>    
         </div>
     );
 }
