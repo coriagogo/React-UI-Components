@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+.card-banner {
+    display: flex;
+}
+
+.card-banner p {
+    width: 50px;
+}
+
+.card-banner img {
+    width: 500px;
+    height: 300px;
+}
