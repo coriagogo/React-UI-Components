@@ -7,7 +7,7 @@ function CardContainer() {
     return (
         <div className="card-container">
             <p></p>
-            <div ClassName="card-cont">
+            <div className="card-cont">
                 <CardBanner />
                 <CardContent />
             </div>
