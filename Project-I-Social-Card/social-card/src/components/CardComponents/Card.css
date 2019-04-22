@@ -1,13 +1,28 @@
 /* All styles for your Card Components live here */
-.card-banner {
-    display: flex;
-}
-
-.card-banner p {
-    width: 50px;
-}
-
 .card-banner img {
-    width: 500px;
+    float: right;
+    width: 520px;
     height: 300px;
+    margin-right: 20px;
 }
+
+.card-content {
+    clear: right;
+    
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+.card-content h4 {
+    padding-top: 10px;
+}
+
+.card-content p {
+    
+    font-size: 15px;
+}
+.card-content .react-org {
+    color: grey;
+    font-size: 12px;
+}
+

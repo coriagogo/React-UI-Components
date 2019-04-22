@@ -5,7 +5,7 @@ function HeaderTitle() {
     return (
         <div className="header-title">
             <h4>Lambda School</h4>
-            <p>@LambdaSchool 26 jan</p>
+            <p>@LambdaSchool 22 Apr</p>
         </div>
     );
 }

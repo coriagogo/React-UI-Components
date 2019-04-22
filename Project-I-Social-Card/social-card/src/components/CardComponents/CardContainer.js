@@ -6,8 +6,11 @@ import CardContent from './CardContent';
 function CardContainer() {
     return (
         <div className="card-container">
-            <CardBanner />
-            <CardContent />
+            <p></p>
+            <div ClassName="card-cont">
+                <CardBanner />
+                <CardContent />
+            </div>
         </div>
     );
 }
