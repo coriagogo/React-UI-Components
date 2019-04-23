@@ -23,7 +23,7 @@ const App = props => {
       <CalculatorDisplay />
       <ButtonContainer>
         <ActionButton className="clear-text" text="clear" />
-        <NumberButton btnStyle="op-btn" text="/" />
+        <NumberButton btnStyle="op-btn" text="&#247;" />
       </ButtonContainer>
       <ButtonContainer>
         <NumberButton btnStyle="num-btn" text="7" />
