@@ -22,7 +22,7 @@ class App extends React.Component {
           </strong>
         </p> */}
         <CalculatorDisplay />
-        <ButtonContainer className="clear-btn">
+        <ButtonContainer>
           <ActionButton className="large-text" text="clear" />
           <NumberButton btnName="op-btn" text="/" />
         </ButtonContainer>
@@ -45,7 +45,7 @@ class App extends React.Component {
           <NumberButton btnName="op-btn" text="+" />
         </ButtonContainer>
         <ButtonContainer>
-          <ActionButton className="large-text" text="0" />
+          <ActionButton className="num-btn" text="0" />
           <NumberButton btnName="op-btn" text="=" />
         </ButtonContainer>
       </div>
