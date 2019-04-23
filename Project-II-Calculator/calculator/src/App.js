@@ -23,30 +23,30 @@ class App extends React.Component {
         </p> */}
         <CalculatorDisplay />
         <ButtonContainer>
-          <ActionButton className="large-text" text="clear" />
-          <NumberButton btnName="op-btn" text="/" />
+          <ActionButton className="clear-text" text="clear" />
+          <NumberButton btnStyle="op-btn" text="/" />
         </ButtonContainer>
         <ButtonContainer>
-          <NumberButton btnName="num-btn" text="7" />
-          <NumberButton btnName="num-btn" text="8" />
-          <NumberButton btnName="num-btn" text="9" />
-          <NumberButton btnName="op-btn" text="X" />
+          <NumberButton btnStyle="num-btn" text="7" />
+          <NumberButton btnStyle="num-btn" text="8" />
+          <NumberButton btnStyle="num-btn" text="9" />
+          <NumberButton btnStyle="op-btn" text="X" />
         </ButtonContainer>
         <ButtonContainer>
-          <NumberButton btnName="num-btn" text="4" />
-          <NumberButton btnName="num-btn" text="5" />
-          <NumberButton btnName="num-btn" text="6" />
-          <NumberButton btnName="op-btn" text="-" />
+          <NumberButton btnStyle="num-btn" text="4" />
+          <NumberButton btnStyle="num-btn" text="5" />
+          <NumberButton btnStyle="num-btn" text="6" />
+          <NumberButton btnStyle="op-btn" text="-" />
         </ButtonContainer>
         <ButtonContainer>
-          <NumberButton btnName="num-btn" text="1" />
-          <NumberButton btnName="num-btn" text="2" />
-          <NumberButton btnName="num-btn" text="3" />
-          <NumberButton btnName="op-btn" text="+" />
+          <NumberButton btnStyle="num-btn" text="1" />
+          <NumberButton btnStyle="num-btn" text="2" />
+          <NumberButton btnStyle="num-btn" text="3" />
+          <NumberButton btnStyle="op-btn" text="+" />
         </ButtonContainer>
         <ButtonContainer>
           <ActionButton className="num-btn" text="0" />
-          <NumberButton btnName="op-btn" text="=" />
+          <NumberButton btnStyle="op-btn" text="=" />
         </ButtonContainer>
       </div>
     );    

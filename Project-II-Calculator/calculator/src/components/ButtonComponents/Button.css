@@ -3,14 +3,10 @@
     height: 70px;
 }
 
-
-
 .large-btn {
     width: 225px;
     height: 70px;
-    border: 1px solid grey;
-    
-    
+    border: 1px solid grey;   
 }
 
 .op-btn {
@@ -23,8 +19,7 @@
 .number-btn {
     width: 75px;
     height: 70px;
-    border: 1px solid grey;
-    
+    border: 1px solid grey;    
 }
 
 .number-btn :last-child {
@@ -37,7 +32,7 @@
 
  }
 
- .large-text {
-     font-size: 50px;
-     font-weight: lighter;
+ .clear-text {
+    font-size: 50px;
+    font-weight: lighter;
  }
