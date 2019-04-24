@@ -1,0 +1,11 @@
+
+
+.calcDisplay {
+    background-color: black;
+    color: white;
+    text-align: right;
+    height: 100px;
+    font-size: 75px;
+    padding: 10px 5px 0 0;
+    border-bottom: 2px solid grey;
+}
