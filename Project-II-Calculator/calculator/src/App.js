@@ -29,7 +29,7 @@ const App = props => {
         <NumberButton btnStyle="num-btn" text="7" />
         <NumberButton btnStyle="num-btn" text="8" />
         <NumberButton btnStyle="num-btn" text="9" />
-        <NumberButton btnStyle="op-btn" text="X" />
+        <NumberButton btnStyle="op-btn" text="x" />
       </ButtonContainer>
       <ButtonContainer>
         <NumberButton btnStyle="num-btn" text="4" />
